@@ -6,11 +6,6 @@
 			
 			<class name="testProjectGroup.testArti.GroupTest" />
 		</classes>
-		<groups>
-			<run>
-				<include name="group2"/>
-			</run>
-		</groups>
 		
 	</test>
 

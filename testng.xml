@@ -1,12 +1,14 @@
 <suite name="mySuite">
 	<test thread-count="5" name="Test1">
+	<parameter name="name" value="narendra"/>
 		<classes>
-			<!-- <class name="testProjectGroup.testArti.TestAnnotations" />
-			<class name="testProjectGroup.testArti.Hello" /> -->
-			
-			<class name="testProjectGroup.testArti.GroupTest" />
+			<!-- <class name="testProjectGroup.testArti.TestAnnotations" />  -->
+			<!-- <class name="testProjectGroup.testArti.Hello" /> --> 
+
+			<!-- <class name="testProjectGroup.testArti.GroupTest" /> -->
+			<class name="testProjectGroup.testArti.ParameterizingTest" />
 		</classes>
-		
+
 	</test>
 
 </suite> 

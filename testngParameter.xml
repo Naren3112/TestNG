@@ -1,0 +1,12 @@
+<suite name="mySuite">
+	<test thread-count="5" name="Test1">
+	<parameter name="firstname" value="narendra"/>
+	<parameter name="lastname" value ="talakokkula"/>
+	
+		<classes>
+			<class name="testProjectGroup.testArti.ParameterizingTest" />
+		</classes>
+
+	</test>
+
+</suite> 

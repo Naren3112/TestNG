@@ -15,7 +15,7 @@
 		<groups>
 			<define name="all">
 				<include name="group1" />
-				<include name="group2" />
+				<exclude name="group2" />
 			</define>
 		</groups>
 		

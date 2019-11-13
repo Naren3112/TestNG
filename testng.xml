@@ -1,0 +1,17 @@
+<suite name="mySuite">
+	<test thread-count="5" name="Test1">
+		<classes>
+			<!-- <class name="testProjectGroup.testArti.TestAnnotations" />
+			<class name="testProjectGroup.testArti.Hello" /> -->
+			
+			<class name="testProjectGroup.testArti.GroupTest" />
+		</classes>
+		<groups>
+			<run>
+				<include name="group2"/>
+			</run>
+		</groups>
+		
+	</test>
+
+</suite> 

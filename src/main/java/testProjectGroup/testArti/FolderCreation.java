@@ -9,7 +9,7 @@ public class FolderCreation {
 	public static void main(String args[]) {
 		
 		try {
-		new File("D://Narendra2//TTT1").mkdirs();
+		new File("D://Narendra2").mkdir();
 		
 		File file =new File("D://Narendra2//TTT1//file1.txt");
 		file.createNewFile();

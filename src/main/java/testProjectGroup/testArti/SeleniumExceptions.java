@@ -1,15 +1,10 @@
 package testProjectGroup.testArti;
 
-import java.util.List;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 public class SeleniumExceptions {
@@ -87,8 +82,7 @@ public class SeleniumExceptions {
 		driver.get("https://www.google.com");
 		//gave extra brackets which resulted in invalid selector
 		WebElement att=driver.findElement(By.xpath("(//input[@value='Google Search'])[2]))"));
-		
-		
+
 	}
 	
 	@Test(description = "Element not visible exception/element not interactable exception",enabled = false)
@@ -117,8 +111,7 @@ public class SeleniumExceptions {
 		System.setProperty("webdriver.chrome.driver", "D:/driver//chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("C:/Users/ntalakokkula.PROKARMA/Desktop/hello.html");
-		driver.quit();
-		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//button[contains(text(),'Click')]")).click();
 
 	}
 }
